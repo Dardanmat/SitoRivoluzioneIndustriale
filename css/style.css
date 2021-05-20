@@ -1,0 +1,25 @@
+.container-fluid{
+   padding: 0;
+}
+
+.carousel-inner .item a img {
+
+margin: auto;
+
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
